@@ -1,0 +1,47 @@
+
+.contenedor-pago {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.contenedor-pago h1 {
+    text-align: center;
+    color: #212529;
+}
+
+.resumen-producto {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contenedor-pago select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.contenedor-pago button {
+    width: 100%;
+    padding: 12px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.contenedor-pago a {
+    display: block;
+    text-align: center;
+    color: #0d6efd;
+}
